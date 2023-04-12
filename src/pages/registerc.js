@@ -12,8 +12,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
-
-const theme = createTheme();
+import { theme } from '../App';
 
 export default function Registerc() {
   const navigate = useNavigate();
@@ -65,11 +64,11 @@ export default function Registerc() {
               <Grid item xs={12} sm={6}>
                 <TextField
                   autoComplete="given-name"
-                  name="firstName"
+                  name="Name"
                   required
                   fullWidth
-                  id="firstName"
-                  label="First Name"
+                  id="Name"
+                  label="Name"
                   autoFocus
                 />
               </Grid>
@@ -77,9 +76,9 @@ export default function Registerc() {
                 <TextField
                   required
                   fullWidth
-                  id="lastName"
-                  label="Last Name"
-                  name="lastName"
+                  id="contact"
+                  label="Contact Number"
+                  name="contactNumber"
                   autoComplete="family-name"
                 />
               </Grid>
@@ -103,6 +102,43 @@ export default function Registerc() {
                   id="password"
                   autoComplete="new-password"
                 />
+                
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  name="address"
+                  label="Address"
+                  
+                  id="address"
+                  autoComplete="address"
+                />
+                
+              </Grid>
+              <Grid item xs={6}>
+                <TextField
+                  required
+                  fullWidth
+                  name="pincode"
+                  label="Pincode"
+                  
+                  id="pincode"
+                  autoComplete="pincode"
+                />
+                
+              </Grid>
+              <Grid item xs={6}>
+                <TextField
+                  required
+                  fullWidth
+                  name="city"
+                  label="City"
+                  
+                  id="city"
+                  autoComplete="city"
+                />
+                
               </Grid>
               
             </Grid>
