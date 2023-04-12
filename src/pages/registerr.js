@@ -9,7 +9,7 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import {ThemeProvider } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 import {theme} from '../App';
 import FormGroup from '@mui/material/FormGroup';
@@ -44,9 +44,6 @@ export default function Registerr() {
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
-        <Typography variant="h4" padding={3}>
-          Recycler registration
-        </Typography>
         <Box
           sx={{
             marginTop: 8,
@@ -141,7 +138,7 @@ export default function Registerr() {
                 />
                 
               </Grid>
-              <Typography component="h1" variant="h5" >Types of Scrap Accepted</Typography>
+              <Typography component="h1" variant="h5" padding={3} >Types of Scrap Accepted</Typography>
               <Grid item xs={6} >
               <FormGroup>
                 <FormControlLabel control={<Checkbox defaultChecked />} label="Paper" />

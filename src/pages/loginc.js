@@ -43,15 +43,14 @@ export default function Loginc() {
     <ThemeProvider theme = {theme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
-        <Typography variant="h4" padding={3}>
-          Client Login Form
-        </Typography>
         <Box
           sx={{
             marginTop: 8,
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
+            background:'white',
+            padding: 3
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
