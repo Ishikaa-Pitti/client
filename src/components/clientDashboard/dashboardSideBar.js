@@ -10,7 +10,7 @@ import ListItemText from '@mui/material/ListItemText';
 import ScheduleOutlinedIcon from '@mui/icons-material/ScheduleOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import RecyclerList from './recyclerList';
-import PickupSchedule from './pickupSchedule';
+//import PickupSchedule from './pickupSchedule';
 const drawerWidth = 220;
 const Dashboardsidebar = () => {
     //const [isCollapsed, setIsCollapsed] = useState(false);

@@ -9,11 +9,12 @@ import Loginc from './pages/loginc';
 import Faq from './pages/faq';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
-import Help from './pages/help';
+//import Help from './pages/help';
 import Registerr from './pages/registerr';
 import Registerc from './pages/registerc';
 import Dashboardc from './pages/dashboardc';
 import Dashboardr from './pages/dashboardr';
+import PickupForm from './pages/pickupForm';
 
 const router = createBrowserRouter([
   {
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/help",
-    element: <Help/>,
+    element: <PickupForm/>,
   },
   {
     path: "/faq",
