@@ -10,6 +10,7 @@ import ListItemText from '@mui/material/ListItemText';
 import ScheduleOutlinedIcon from '@mui/icons-material/ScheduleOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import PickupSchedule from '../clientDashboard/pickupSchedule';
+import Myorders from './myorders';
 const drawerWidth = 220;
 const RecyclerSidebar = () => {
     //const [isCollapsed, setIsCollapsed] = useState(false);
@@ -50,7 +51,7 @@ const RecyclerSidebar = () => {
     </Drawer>
     <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar/>
-        <PickupSchedule />
+        <Myorders />
     </Box>
     </Box>
         
