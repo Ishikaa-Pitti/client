@@ -6,11 +6,11 @@ import CssBaseline from '@mui/material/CssBaseline';
 import List from '@mui/material/List';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
-import PickupSchedule from './pickupSchedule';
 import ListItemText from '@mui/material/ListItemText';
 import ScheduleOutlinedIcon from '@mui/icons-material/ScheduleOutlined';
-
-const drawerWidth = 240;
+import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
+import RecyclerList from './recyclerList';
+const drawerWidth = 220;
 const Dashboardsidebar = () => {
     //const [isCollapsed, setIsCollapsed] = useState(false);
     //const [selected, setSelected] = useState('Dashboard');
@@ -36,13 +36,21 @@ const Dashboardsidebar = () => {
                     <ListItemText primary="My Pickup" />
                 </ListItemButton>
             </ListItem>
+            <ListItem key="My Pickup" disablePadding>
+                <ListItemButton>
+                    <ListItemIcon>
+                        <PeopleAltOutlinedIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="Schedule Pickup" />
+                </ListItemButton>
+            </ListItem>
             
         </List>
         </Box>
     </Drawer>
     <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar/>
-        <PickupSchedule />
+        <RecyclerList />
     </Box>
     </Box>
         
