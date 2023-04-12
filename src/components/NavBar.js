@@ -4,12 +4,14 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import {Link} from 'react-router-dom';
-
+import {theme} from '../App'
 import IconButton from '@mui/material/IconButton';
+import { ThemeProvider } from '@emotion/react';
 
 
 export default function ButtonAppBar() {
   return (
+    <ThemeProvider theme={theme}>
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" color='primary'>
         <Toolbar>
@@ -52,5 +54,6 @@ export default function ButtonAppBar() {
         </Toolbar>
       </AppBar>
     </Box>
+    </ThemeProvider>
   );
 }
