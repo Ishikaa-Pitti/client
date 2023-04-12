@@ -6,7 +6,7 @@ import StepLabel from '@mui/material/StepLabel';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-const steps = ['Select campaign settings', 'Create an ad group', 'Create an ad'];
+const steps = ['Select the Recycler', 'Fill the form', 'Pickup Confirmation'];
 
 export default function ProcessSteps() {
   const [activeStep, setActiveStep] = React.useState(0);
