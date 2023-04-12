@@ -14,9 +14,7 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
-
-
-const theme = createTheme();
+import { theme } from '../App';
 
 export default function LoginR() {
   const navigate = useNavigate();

@@ -1,10 +1,12 @@
 import React from 'react'
-
+import { ThemeProvider } from '@mui/material';
+import { theme } from '../App';
+import DashboardNavbar from '../components/clientDashboard/dashboardNavbar'
 const Dashboardr = () => {
   return (
-    <div>
-      <h1>This is recycler dashboard page</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+      <DashboardNavbar />
+    </ThemeProvider>
   )
 }
 
