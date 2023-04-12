@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --primary: yellow;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    --primary: yellow;
+}
+
+.text-white{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: blueviolet;
+}
+
+.MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-349cgn-MuiAppBar-root{
+  background-color: yellow;
 }

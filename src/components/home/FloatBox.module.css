@@ -1,0 +1,80 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px;
+    
+    position: absolute;
+    height: 194.39px;
+    left: 182px;
+    right: 167px;
+    top: 4452.2px;
+    
+    background: #FFB901;
+    box-shadow: 29px 29px 60px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .div {
+    width: min-content;
+    height: min-content;
+    padding: 10px;
+  }
+  .div2 {
+    position: relative;
+    width: 805px;
+    height: 94.3906px;
+    align-items: flex-start;
+  }
+  .turnYourScrapIntoCash {
+    color: #fff;
+    font-size: 36px;
+    line-height: 50.4px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: -0.2125px;
+    top: -1px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .scheduleAPickupInJustFewSimple {
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 1.7016px;
+    top: 59.8906px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .a {
+    width: min-content;
+    height: min-content;
+    padding: 18px 39.7516px 18px 39.9516px;
+    border-radius: 50px;
+    background-color: #000;
+    box-shadow: 19px 19px 40px 0px #0000001a;
+  }
+  .scheduleAPICKUP {
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    text-transform: uppercase;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  

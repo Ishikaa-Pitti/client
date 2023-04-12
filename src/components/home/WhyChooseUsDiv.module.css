@@ -1,0 +1,231 @@
+.root {
+    width: 1495px;
+    height: 397px;
+    align-items: flex-start;
+    padding: 30px 156px 70px;
+    background-color: #f6f6f6;
+  }
+  .div {
+    position: relative;
+    width: 1200px;
+    height: 331px;
+    align-items: flex-start;
+  }
+  .div2 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 1180px;
+    height: 73px;
+    align-items: flex-start;
+  }
+  .whyChooseUS {
+    color: #333;
+    font-size: 35px;
+    line-height: 49px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - 0.4078px);
+    top: 0;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .div3 {
+    position: absolute;
+    left: calc(50% - -13px);
+    top: 69px;
+    width: 40px;
+    height: 4px;
+    align-items: flex-start;
+    border-radius: 2px;
+    background-color: #f9d342;
+    transform: translateX(-50%);
+  }
+  .divBefore {
+    position: absolute;
+    left: -27px;
+    top: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #f9d342;
+    box-shadow: 18px 0px 0px 0px #f9d342, 9px 0px 0px 0px #f9d342;
+  }
+  .div4 {
+    position: absolute;
+    left: 50%;
+    top: 123px;
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px 10.0156px 10px 10px;
+    transform: translateX(-50%);
+  }
+  .div5 {
+    position: relative;
+    width: 373.3281px;
+    height: 142.75px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .screenshot2022515At44722PMPng {
+    position: absolute;
+    left: calc(50% - 145.6641px);
+    top: calc(50% - 17.5156px);
+    width: 70px;
+    height: 65.7188px;
+    background-image:/* webpackIgnore: true */ url('assets/screenshot2022515At44722PMPng.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+  }
+  .div6 {
+    position: absolute;
+    left: 81px;
+    top: 20.7969px;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -1.125px;
+    padding: 0 15.0031px 0.2813px 0;
+  }
+  .professionalServices {
+    color: #000;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: 211.5125px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .professionalExecutivesWithACus {
+    color: #565656;
+    font-size: 14px;
+    line-height: 25.2px;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: 266.325px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .div7 {
+    position: relative;
+    width: 373.3281px;
+    height: 142.75px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .screenshot2022515At44729PMPng {
+    position: absolute;
+    left: calc(50% - 145.6641px);
+    top: calc(50% - 19.0078px);
+    width: 70px;
+    height: 62.7344px;
+    background-image:/* webpackIgnore: true */ url('assets/screenshot2022515At44729PMPng.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+  }
+  .div8 {
+    position: absolute;
+    left: 81px;
+    top: 20.7969px;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -1.125px;
+    padding: 0 21.4562px 0.2813px 0;
+  }
+  .transparencyInWeightAndPricing {
+    color: #000;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: 259.8719px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .precisionWeighingAndBestInTheM {
+    color: #565656;
+    font-size: 14px;
+    line-height: 25.2px;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: 241.1687px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .div9 {
+    position: relative;
+    width: 373.3281px;
+    height: 142.75px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .screenshot2022515At44736PMPng {
+    position: absolute;
+    left: calc(50% - 145.6641px);
+    top: calc(50% - 21.7969px);
+    width: 70px;
+    height: 57.1563px;
+    background-image:/* webpackIgnore: true */ url('assets/screenshot2022515At44736PMPng.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+  }
+  .div10 {
+    position: absolute;
+    left: 81px;
+    top: 20.7969px;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -1.125px;
+    padding: 0 35.675px 0.2813px 0;
+  }
+  .seamlessPickupTransportation {
+    color: #000;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: 173.0437px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .timelyPickupWithSafeAndSecureT {
+    color: #565656;
+    font-size: 14px;
+    line-height: 25.2px;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: 245.6531px;
+    height: min-content;
+    flex-direction: column;
+  }
+  

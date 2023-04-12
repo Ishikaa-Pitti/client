@@ -1,0 +1,73 @@
+.root {
+    position: relative;
+    height: 318px;
+    align-items: flex-start;
+  }
+  .div {
+    position: absolute;
+    left: 456px;
+    right: 456px;
+    top: 0;
+    height: 177px;
+    align-items: flex-start;
+  }
+  .lookingForAQuickAndEasyWayToGe {
+    color: #333;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - -0.1px);
+    top: 10px;
+    width: 575.7313px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .a {
+    position: absolute;
+    left: calc(50% - 0px);
+    top: calc(50% - -52px);
+    width: min-content;
+    height: min-content;
+    padding: 19px 40.6656px 19px 40.8656px;
+    outline: solid 1px #fff;
+    outline-offset: -1px;
+    border-radius: 50px;
+    background-color: #f9d342;
+    box-shadow: 5px 5px 20px 0px #0000001f;
+    transform: translate(-50%, -50%);
+  }
+  .scheduleAPICKUP {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    text-transform: uppercase;
+    z-index: 0;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .pROCESSLOGOPng {
+    position: absolute;
+    left: 50%;
+    top: calc(50% - -98.5px);
+    width: 1024px;
+    height: 121px;
+    background-image:/* webpackIgnore: true */ url('assets/pROCESSLOGOPng.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+  }
+  

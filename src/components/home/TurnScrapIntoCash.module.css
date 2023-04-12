@@ -1,0 +1,245 @@
+.root {
+    width: min-content;
+    height: 491px;
+    align-items: flex-start;
+    padding: 70px 156px 60px;
+    background-color: #f6f6f6;
+  }
+  .div {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 10px 20px;
+  }
+  .heading {
+    position: relative;
+    width: 1180px;
+    height: 128.1875px;
+    align-items: flex-start;
+  }
+  .turnYourScrapIntoCash {
+    color: #333;
+    font-size: 35px;
+    line-height: 49px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - 0.4px);
+    top: 0;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .div2 {
+    position: absolute;
+    left: calc(50% - -13px);
+    top: 69px;
+    width: 40px;
+    height: 4px;
+    align-items: flex-start;
+    border-radius: 2px;
+    background-color: #f9d342;
+    transform: translateX(-50%);
+  }
+  .divBefore {
+    position: absolute;
+    left: -27px;
+    top: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #f9d342;
+    box-shadow: 18px 0px 0px 0px #f9d342, 9px 0px 0px 0px #f9d342;
+  }
+  .sellYourScrapInJust4SimpleStep {
+    color: #4a4a4a;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - -0.0922px);
+    top: 102.5px;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .ul {
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 15px;
+  }
+  .a {
+    position: relative;
+    width: 260px;
+    height: 122.1875px;
+    align-items: flex-start;
+    outline: solid 1px #dedede;
+    outline-offset: -1px;
+    background-color: #fff;
+  }
+  .car1Png {
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 20.0938px);
+    color: #FFB901;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+  }
+  .createProfile {
+    color: #333;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    z-index: 0;
+    position: absolute;
+    left: calc(50% - 0.5px);
+    top: 80.5156px;
+    width: 147px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .a2 {
+    position: relative;
+    width: 260px;
+    height: 122.1875px;
+    align-items: flex-start;
+    outline: solid 1px #dedede;
+    outline-offset: -1px;
+    background-color: #fff;
+  }
+  .bike1Png {
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 20.0938px);
+    color: #FFB901;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+  }
+  .fillInDetailsOfTheScrap {
+    color: #333;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    z-index: 0;
+    position: absolute;
+    left: calc(50% - -1px);
+    top: 75.8125px;
+    width: 224px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .a3 {
+    position: relative;
+    width: 260px;
+    height: 122.1875px;
+    align-items: flex-start;
+    outline: solid 1px #dedede;
+    outline-offset: -1px;
+    background-color: #fff;
+  }
+  .three_wheller1Png {
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 20.0938px);
+    width: 50px;
+    height: 50px;
+    color: #FFB901;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+  }
+  .scheduleAPickup {
+    color: #333;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    z-index: 0;
+    position: absolute;
+    left: calc(50% - 0.5px);
+    top: 78.8125px;
+    width: 181px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .a4 {
+    position: relative;
+    width: 260px;
+    height: 122.1875px;
+    align-items: flex-start;
+    outline: solid 1px #dedede;
+    outline-offset: -1px;
+    background-color: #fff;
+  }
+  .commercial1Png {
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 25.0938px);
+    width: 50px;
+    height: 50px;
+    color: #FFB901;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+  }
+  .handoverScrapAndGetPaid {
+    color: #333;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top: 65.8125px;
+    width: 186px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  

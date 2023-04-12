@@ -1,0 +1,335 @@
+.root {
+    width: 1995px;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 20px 100px 0;
+    position: absolute;
+  }
+  .faqTitle {
+    position: relative;
+    width: 720px;
+    height: 73px;
+    align-items: flex-start;
+  }
+  .frequentlyAskedQuestion {
+    color: #333;
+    font-size: 35px;
+    line-height: 49px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - -0.1px);
+    top: 0;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .dash {
+    position: absolute;
+    left: calc(50% - -13px);
+    top: 69px;
+    width: 40px;
+    height: 4px;
+    align-items: flex-start;
+    border-radius: 2px;
+    background-color: #f9d342;
+    transform: translateX(-50%);
+  }
+  .divBefore {
+    position: absolute;
+    left: -27px;
+    top: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #f9d342;
+    box-shadow: 18px 0px 0px 0px #f9d342, 9px 0px 0px 0px #f9d342;
+  }
+  .faqList {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .solutionDiv {
+    position: relative;
+    width: 910px;
+    height: 168px;
+    align-items: flex-start;
+  }
+  .questionDiv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 910px;
+    height: 56px;
+    align-items: flex-start;
+    background-color: #f1f1f1;
+  }
+  .questionText {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 20.6859px;
+    top: calc(50% - 0.5px);
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateY(-50%);
+  }
+  .arrowIcon {
+    position: absolute;
+    left: 862.95px;
+    top: 20px;
+    width: min-content;
+    height: min-content;
+    padding: 0 0 0 0.1px;
+  }
+  .unnamed {
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .solutionText {
+    color: #4a4a4a;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 99.5px;
+    width: 866.6219px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .questionDiv2 {
+    position: relative;
+    width: 910px;
+    height: 56px;
+    align-items: flex-start;
+    background-color: #f1f1f1;
+  }
+  .questionText2 {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 21.1px;
+    top: calc(50% - 0.5px);
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateY(-50%);
+  }
+  .arrowIcon2 {
+    position: absolute;
+    left: 862.95px;
+    top: 20px;
+    width: min-content;
+    height: min-content;
+    padding: 0 0 0 0.1px;
+  }
+  .unnamed2 {
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .a {
+    position: relative;
+    width: 910px;
+    height: 56px;
+    align-items: flex-start;
+    background-color: #f1f1f1;
+  }
+  .faq3 {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 21.0844px;
+    top: calc(50% - 0.5px);
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateY(-50%);
+  }
+  .i {
+    position: absolute;
+    left: 862.95px;
+    top: 20px;
+    width: min-content;
+    height: min-content;
+    padding: 0 0 0 0.1px;
+  }
+  .unnamed3 {
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .a2 {
+    position: relative;
+    width: 910px;
+    height: 56px;
+    align-items: flex-start;
+    background-color: #f1f1f1;
+  }
+  .faq4 {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 20.8188px;
+    top: calc(50% - 0.5px);
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateY(-50%);
+  }
+  .i2 {
+    position: absolute;
+    left: 862.95px;
+    top: 20px;
+    width: min-content;
+    height: min-content;
+    padding: 0 0 0 0.1px;
+  }
+  .unnamed4 {
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .a3 {
+    position: relative;
+    width: 910px;
+    height: 56px;
+    align-items: flex-start;
+    background-color: #f1f1f1;
+  }
+  .faq5 {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 21.1469px;
+    top: calc(50% - 0.5px);
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateY(-50%);
+  }
+  .i3 {
+    position: absolute;
+    left: 862.95px;
+    top: 20px;
+    width: min-content;
+    height: min-content;
+    padding: 0 0 0 0.1px;
+  }
+  .unnamed5 {
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .a4 {
+    position: relative;
+    width: 910px;
+    height: 56px;
+    align-items: flex-start;
+    background-color: #f1f1f1;
+  }
+  .faqNo6 {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 20.8734px;
+    top: calc(50% - 0.5px);
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateY(-50%);
+  }
+  .i4 {
+    position: absolute;
+    left: 862.95px;
+    top: 20px;
+    width: min-content;
+    height: min-content;
+    padding: 0 0 0 0.1px;
+  }
+  .unnamed6 {
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  

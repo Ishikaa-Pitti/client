@@ -1,0 +1,184 @@
+.root {
+    position: relative;
+    height: 353px;
+    align-items: flex-start;
+  }
+  .div {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 1180px;
+    height: 73px;
+    align-items: flex-start;
+  }
+  .featuresWeProvide {
+    color: #333;
+    font-size: 35px;
+    line-height: 49px;
+    font-weight: bold;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - -0.0922px);
+    top: 0;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .div2 {
+    position: absolute;
+    left: calc(50% - -13px);
+    top: 69px;
+    width: 40px;
+    height: 4px;
+    align-items: flex-start;
+    border-radius: 2px;
+    background-color: #f9d342;
+    transform: translateX(-50%);
+  }
+  .divBefore {
+    position: absolute;
+    left: -27px;
+    top: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #f9d342;
+    box-shadow: 18px 0px 0px 0px #f9d342, 9px 0px 0px 0px #f9d342;
+  }
+  .div3 {
+    position: absolute;
+    left: 50%;
+    top: 123px;
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+    transform: translateX(-50%);
+  }
+  .div4 {
+    position: relative;
+    width: 255px;
+    height: 127.1875px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px #0000003d;
+  }
+  .securePaymentGateway {
+    color: #1b1a13;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 21px;
+    width: 107px;
+    height: 86px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .div5 {
+    position: relative;
+    width: 255px;
+    height: 127.1875px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px #0000003d;
+  }
+  .detailedDashboard {
+    color: #1b1a13;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - -0.5px);
+    top: 25px;
+    width: 114px;
+    height: 78px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .div6 {
+    position: relative;
+    width: 255px;
+    height: 127.1875px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px #0000003d;
+  }
+  .openBox2Png {
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 12.5938px);
+    width: 70px;
+    height: 70px;
+    transform: translate(-50%, -50%);
+  }
+  .bookingMechanism {
+    color: #1b1a13;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 55px;
+    width: 133px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .div7 {
+    position: relative;
+    width: 255px;
+    height: 127.1875px;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px #0000003d;
+  }
+  .feature4 {
+    color: #1b1a13;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - -20px);
+    top: 51px;
+    width: 99px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  
