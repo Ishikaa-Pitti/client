@@ -11,9 +11,10 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
-
-
-const theme = createTheme();
+import {theme} from '../App';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 
 export default function Registerr() {
   const navigate = useNavigate();
@@ -77,9 +78,9 @@ export default function Registerr() {
                 <TextField
                   required
                   fullWidth
-                  id="lastName"
-                  label="Last Name"
-                  name="lastName"
+                  id="contact"
+                  label="Contact Number"
+                  name="contactNumber"
                   autoComplete="family-name"
                 />
               </Grid>
@@ -103,6 +104,74 @@ export default function Registerr() {
                   id="password"
                   autoComplete="new-password"
                 />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  name="address"
+                  label="Address"
+                  
+                  id="address"
+                  autoComplete="address"
+                />
+                
+              </Grid>
+              <Grid item xs={6}>
+                <TextField
+                  required
+                  fullWidth
+                  name="pincode"
+                  label="Pincode"
+                  
+                  id="pincode"
+                  autoComplete="pincode"
+                />
+                
+              </Grid>
+              <Grid item xs={6}>
+                <TextField
+                  required
+                  fullWidth
+                  name="city"
+                  label="City"
+                  
+                  id="city"
+                  autoComplete="city"
+                />
+                
+              </Grid>
+              <Typography component="h1" variant="h5" >Types of Scrap Accepted</Typography>
+              <Grid item xs={6} >
+              <FormGroup>
+                <FormControlLabel control={<Checkbox defaultChecked />} label="Paper" />
+                <TextField
+                  required
+                  fullWidth
+                  name="Paperrate"
+                  label="Rate"
+                  id="PaperRate"
+                  autoComplete="paper-rate"
+                />
+                <FormControlLabel control={<Checkbox />} label="Metal" />
+                <TextField
+                  required
+                  fullWidth
+                  name="Metalrate"
+                  label="Rate"
+                  id="MetalRate"
+                  autoComplete="metal-rate"
+                />
+                <FormControlLabel control={<Checkbox />} label=" Plastic" />
+                <TextField
+                  required
+                  fullWidth
+                  name="Plasticrate"
+                  label="Rate"
+                  id="PlasticRate"
+                  autoComplete="plastic-rate"
+                />
+              </FormGroup>
               </Grid>
             </Grid>
             <Button
